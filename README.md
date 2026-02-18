@@ -29,3 +29,7 @@ Para testar a aplicação localmente:
 * **Documentação:** Texto detalhado com aproximadamente **2.700 caracteres**, superando amplamente o requisito de 800.
 * **Linguagens:** Uso funcional de HTML, CSS e JS.
 * **Codificação:** Projeto funcional, responsivo e validado para sistemas de backend.
+
+* ## 🌐 Link de Acesso
+O projeto está publicado e pode ser acessado em tempo real através do link abaixo:
+👉 **[Clique aqui para visualizar o Portfólio](https://mariaalinemees.github.io/meu-portfolio/)**
