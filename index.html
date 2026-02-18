@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Maria Aline Mees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Maria Aline Mees</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="intro">Olá, eu sou</p>
+            <h2>Desenvolvedora Backend em transição de carreira</h2>
+            <p class="descricao">Unindo 12 anos de experiência em gestão e começando na área de tecnologia para criar soluções escaláveis e eficientes.</p>
+            <div class="botoes">
+                <a href="#projetos" class="btn-primario">Ver Projetos</a>
+                <a href="#contato" class="btn-secundario">Entrar em Contato</a>
+            </div>
+        </div>
+    </section>
+
+   <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Olá, eu sou a Maria Aline Mees! Aos 33 anos, estou vivendo minha transição de carreira para a tecnologia, unindo 12 anos de experiência profissional como Personal Trainer, Gestora e Professora com a graduação em <strong>Sistemas de Informação</strong>. Minha trajetória anterior me deu uma base sólida em gestão, logística e finanças, o que me permite olhar para o desenvolvimento de software não apenas como um desafio técnico, mas como uma ferramenta para resolver problemas de negócio e fidelizar clientes.</p>
+        
+        <p>Atualmente, sou uma entusiasta do Backend. Através de formações intensivas como o +DEVS2BLU, Entra21 e Bootcamp Santander, desenvolvi projetos práticos utilizando <strong>Java, Spring Boot e Angular</strong> para o desenvolvimento de aplicações web modernas.</p>
+        
+        <p>Meu foco técnico envolve Modelagem SQL, RabbitMQ e aplicação rigorosa dos princípios de Clean Code e POO. Em 2024, realizei um intercâmbio de imersão em Inglês, focando em fluência para ambientes de trabalho globais. Minha experiência com ensino me torna uma profissional preparada para colaboração em equipes.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <div class="projeto-card">
+            <h3>CapivaraIA - Assistente Virtual (SEDEAD)</h3>
+            <p>A CapivaraIA é uma solução de IA desenvolvida para a Secretaria de Estado da Administração (SEDEAD) durante um hackweek em 2025. Como responsável pelo desenvolvimento integral do microsserviço [service-java], implementei uma API REST robusta integrada a um ecossistema de 5 repositórios.</p>
+            <p><strong>Arquitetura & Cloud:</strong> Implementação em containers via Amazon na AWS, com tráfego gerenciado por Load Balancer e isolamento em rede privada. Deploy 100% automatizado através de pipelines de CI/CD via GitHub Actions e infraestrutura como código com Terraform.</p>
+            <span>Tecnologias: Java, Spring Boot, AWS, Docker, Terraform e GitHub Actions.</span>
+        </div>
+
+        <div class="projeto-card">
+            <h3>Undead Rising - RPG (Java Puro)</h3>
+            <p>O "Undead Rising" é um simulador de apocalipse zumbi desenvolvido durante o curso +Devs2Blu. O projeto prioriza a aplicação rigorosa de Programação Orientada a Objetos (POO) para gerenciar um sistema de combate por turnos, inventário dinâmico e classes de personagens.</p>
+            <p><strong>Destaques Técnicos:</strong> Utilização do Apache Maven para automação de build e gerenciamento de dependências, com interface gráfica desenvolvida em Java Swing/AWT.</p>
+            <span>Tecnologias: Java 11, Maven, Java Swing/AWT e POO.</span>
+        </div>
+
+        <div class="projeto-card">
+            <h3>Meu Roteiro - Gestão de Viagens Fullstack</h3>
+            <p>Projeto final do +Devs2Blu que utiliza uma arquitetura distribuída para gerenciar roteiros de viagem. A aplicação conta com 4 serviços independentes e integra Inteligência Artificial via Spring AI e Ollama para sugestões inteligentes.</p>
+            <p><strong>Backend & Segurança:</strong> Implementação de mensageria assíncrona com RabbitMQ para notificações e segurança robusta com Spring Security e criptografia BCrypt. Todo o ambiente é orquestrado via Docker Compose.</p>
+            <span>Tecnologias: Java 17, Spring Boot 3, Angular, RabbitMQ, MySQL, Docker e Spring AI.</span>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <div class="habilidades-grid">
+            <div class="hab-card">
+                <h3>Javascript</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>HTML / CSS</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Java</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Spring Boot</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Banco de Dados</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Docker</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Git / GitHub</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Inglês</h3><span class="nivel">Intermediário</span>
+            </div>
+            <div class="hab-card">
+                <h3>Scrum</h3><span class="nivel">Básico</span>
+            </div>
+            <div class="hab-card">
+                <h3>Business</h3><span class="nivel">Intermediário</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p class="objetivo">
+            Atualmente curso Sistemas de Informação e busco minha <strong>primeira
+                oportunidade de estágio</strong> para ingressar no mercado de tecnologia e evoluir tecnicamente.
+        </p>
+        <div class="contato-container">
+            <span id="meu-email">mariaalinemees@gmail.com</span>
+            <button id="btn-copiar" onclick="copiarEmail()">Copiar</button>
+        </div>
+        <div class="redes-sociais">
+            <a href="https://github.com/MariaAlineMees" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/maria-aline-mees/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
